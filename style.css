@@ -403,7 +403,7 @@ FEATURES ↓
     letter-spacing: 0.025em;
 }
 
-section__para {
+.section__para {
     font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
@@ -428,6 +428,82 @@ section__para {
     height: 24px;
 }
 
+.features {
+  width: 100%;
+}
+
+.feature {
+  width: calc(100% / 3);
+}
+
+.feature__img--wrapper {
+  flex-shrink: 0;
+}
+
+.feature__text {
+  margin: 8px 0 0 16px;
+}
+
+.feature__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.feature__para {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 2;
+  color: #7c8ba1;
+}
+
+#features .section__tag {
+  margin: 0;
+}
+
+#features .section__title {
+  text-align: center;
+}
+
+.features {
+  width: 100%;
+}
+
+.feature {
+  width: calc(100% / 3);
+}
+
+.feature__img--wrapper {
+  flex-shrink: 0;
+}
+
+.feature__text {
+  margin: 8px 0 0 16px;
+}
+
+.feature__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.feature__para {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 2;
+  color: #7c8ba1;
+}
+
+#features .section__tag {
+  margin: 0;
+}
+
+#features .section__title {
+  text-align: center;
+}
+
 /* 
 
 QUALITY WORK ↓
@@ -441,6 +517,19 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: #6415ff;
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+}
 
 /* 
 
@@ -577,4 +666,41 @@ MOBILE RESPONSIVENESS ↓
     main {
         margin-bottom: 80px;
     }
+}
+.features {
+  width: 100%;
+}
+
+.feature {
+  width: calc(100% / 3);
+}
+
+.feature__img--wrapper {
+  flex-shrink: 0;
+}
+
+.feature__text {
+  margin: 8px 0 0 16px;
+}
+
+.feature__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.feature__para {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 2;
+  color: #7c8ba1;
+}
+
+#features .section__tag {
+  margin: 0;
+}
+
+#features .section__title {
+  text-align: center;
 }
