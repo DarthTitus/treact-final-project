@@ -683,7 +683,7 @@ VALUES ↓
     height: 36px;
 }
 
-.value__img {
+svg.value__img {
     width: 20px;
     height: 20px;
 }
@@ -705,6 +705,19 @@ VALUES ↓
 
 .value:nth-child(1) .value__img--wrapper {
     background-color: #9ae6b4
+}
+
+.value {
+  width: 50%;
+  margin-top: 32px;
+}
+
+.value:first-child {
+  margin-right: 32px;
+}
+
+#values .btn {
+  margin-top: 48px;
 }
 
 
