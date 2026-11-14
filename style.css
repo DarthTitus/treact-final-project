@@ -647,9 +647,9 @@ VALUES ↓
 */
 
 #values .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .values__description, .values__img {
@@ -658,13 +658,16 @@ VALUES ↓
 
 
 .values__description {
-    padding: 32px 64px 32px 0;
+  width: 50%;
+  padding-right: 64px;
 }
-
 .values__img {
   width: 50%;
-  max-width: 500px;
+  max-width: none;
+  height: auto;
+  flex-shrink: 0;
 }
+
 
 
 
